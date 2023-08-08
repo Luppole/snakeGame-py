@@ -23,6 +23,7 @@ class Snake:
         new_segment.color("white")
         new_segment.penup()
         new_segment.goto(position)
+        
         self.segments.append(new_segment)
 
     def extend(self):
